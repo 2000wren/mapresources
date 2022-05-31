@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/mapresources/style.css">
   </head>
   <body>
@@ -13,9 +14,25 @@
   <p>This is a resource page for maps.</p>
 
   <h2>General map with country borders</h2>
+  <p>
+    Two .png versions are available. The second has been converted from a .bmp.
+    This had been done because it was thought there was undesirable aliasing in the .png version.
+    However, since the resolution is already so high, that didn't happen.
+    Still, both versions are provided in case the user has a preference.
+  </p>
+  <h3>PNG:</h3>
   <a href="/mapresources/images/Countries2019_transparent.png" download>Click me for download!</a>
   <img class="thumbnail" src="/mapresources/images/Countries2019_transparent.png" alt="2019 Country borders map">
-  <!-- <img class="thumbnail" src="C:\Users\cynth\Documents\GitHub\mapresources\images\Countries2019_transparent.png"> -->
+  <h3>PNG converted from BMP:</h3>
+  <a href="/mapresources/images/Countries2019_converted.png" download>Click me for download!</a>
+  <img class="thumbnail" src="/mapresources/images/Countries2019_converted.png" alt="2019 Country borders map">
+  <p>
+    If you're interested in the code used to convert .bmp to transparent .png, check here:
+    <a href="/mapresources/Python/bmp_to_trans_png.ipynb">bmp_to_trans_png.ipynb</a>
+  </p>
+  <h3>Original BMP:</h3>
+  <a href="/mapresources/images/Countries2019.bmp" download>Click me for download!</a>
+  <img class="thumbnail" src="/mapresources/images/Countries2019.bmp" alt="2019 Country borders map">
   <p>Source: https://hub.arcgis.com/datasets/2b93b06dc0dc4e809d3c8db5cb96ba69_0/explore?location=27.991038%2C-0.860826%2C3.29
     <br>
     Accessed: May 31, 2022
