@@ -1,1 +1,1 @@
-# mapresources
+# Map resources
