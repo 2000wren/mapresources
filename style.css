@@ -1,14 +1,26 @@
 :root {
   --bg_main: #bfc8e3;
   --text_main: #333333;
+  --aux: #dae1ed;
 }
 
 body {
   background-color: var(--bg_main);
   color: var(--text_main);
+  border: dashed 5px var(--text_main);
+  margin: 5px;
+  padding: 10px;
 }
 
 .thumbnail {
   max-width: 500px;
-  height: 100px;
+  height: 300px;
+}
+
+hr {
+  width: 50%;
+  border-top: dotted 10px var(--aux);
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }
